@@ -1,2 +1,5 @@
 # Web-crawler-gc
-Using python's webcrawler to gather data regarding academic schedule and importing it to google calendar
+1. Create a web scraper in python
+2. Collect data (academic schedule) (saving to csv file)
+3. Importing said schedule to Google Calendar
+   *Plans to use Google Calendar API to automate the process 
