@@ -24,7 +24,7 @@ url = f'https://old.wcy.wat.edu.pl/pl/rozklad?grupa_id={group}'
 
 # Set a User-Agent header to mimic a web browser
 headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)...'  # Fill with actual one (safety purposes) 
 }
 
 try:
