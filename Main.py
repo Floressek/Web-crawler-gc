@@ -85,7 +85,7 @@ try:
 
         # Save the filtered data to a CSV file
         csv_filename = 'academic_scheduleG_filtered.csv'
-        with open(csv_filename, mode='w', newline='') as csv_file:
+        with open(csv_filename, mode='w', newline='', encoding='utf-8') as csv_file:
             fieldnames = ['Subject', 'Start Date', 'Start Time', 'End Date', 'End Time', 'All Day Event', 'Description', 'Location', 'Private']
             writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
 
